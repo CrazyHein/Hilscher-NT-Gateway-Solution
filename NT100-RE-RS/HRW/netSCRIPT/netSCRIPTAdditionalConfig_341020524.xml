@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<database xmlns="x-schema:xml2nxdSchema.xml" name="DatabaseName" minversion="">
+	<!-- Tables -->
+	<table id="1" VariableName="HRW">
+		<descr xml:lang="en-us">HRW Constants</descr>
+		<!-- string Entry -->
+		<string id="1" VariableName="REQUEST_FRAME_PREFIX_STRING">
+			<descr xml:lang="en-us">Prefix string for request frame</descr>
+			<value val=":011700000005000B000306" min="0" max="32" />
+		</string>
+
+		<string id="2" VariableName="RESPONSE_FRAME_PREFIX_STRING">
+			<descr xml:lang="en-us">Prefix string for response frame</descr>
+			<value val=":01170A" min="0" max="8" />
+		</string>
+	</table>
+</database>

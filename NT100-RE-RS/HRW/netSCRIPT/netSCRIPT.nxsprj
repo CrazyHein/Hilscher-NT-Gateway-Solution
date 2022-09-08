@@ -1,0 +1,5 @@
+<Project name='Proj'>
+	<Sources>
+		<File sync='true' remote_file='HRW.lua'>HRW.lua</File>
+	</Sources>
+</Project>
