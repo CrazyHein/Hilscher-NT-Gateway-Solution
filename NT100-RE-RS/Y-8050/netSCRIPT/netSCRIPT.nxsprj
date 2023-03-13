@@ -1,0 +1,5 @@
+<Project name='Proj'>
+	<Sources>
+		<File sync='true' remote_file='Y-8050DC.lua'>Y-8050DC.lua</File>
+	</Sources>
+</Project>
