@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<database xmlns="x-schema:xml2nxdSchema.xml" name="DatabaseName" minversion="">
+	<!-- Tables -->
+	<table id="1" VariableName="HRW">
+		<descr xml:lang="en-us">HRW Constants</descr>
+		<!-- string Entry -->
+		<string id="1" VariableName="REQUEST_FRAME_PREFIX_STRING">
+			<descr xml:lang="en-us">Prefix string for request frame</descr>
+			<value val=":011700000005000B000306" min="0" max="32" />
+		</string>
+
+		<string id="11" VariableName="REQUEST_FRAME_PREFIX_STRING_ADR1">
+			<descr xml:lang="en-us">Prefix string for request frame adr1</descr>
+			<value val=":011700000005000B000306" min="0" max="32" />
+		</string>
+
+		<string id="12" VariableName="REQUEST_FRAME_PREFIX_STRING_ADR2">
+			<descr xml:lang="en-us">Prefix string for request frame adr2</descr>
+			<value val=":021700000005000B000306" min="0" max="32" />
+		</string>
+
+		<string id="2" VariableName="RESPONSE_FRAME_PREFIX_STRING">
+			<descr xml:lang="en-us">Prefix string for response frame</descr>
+			<value val=":01170A" min="0" max="8" />
+		</string>
+
+		<string id="21" VariableName="RESPONSE_FRAME_PREFIX_STRING_ADR1">
+			<descr xml:lang="en-us">Prefix string for response frame adr1</descr>
+			<value val=":01170A" min="0" max="8" />
+		</string>
+
+		<string id="22" VariableName="RESPONSE_FRAME_PREFIX_STRING_ADR2">
+			<descr xml:lang="en-us">Prefix string for response frame adr2</descr>
+			<value val=":02170A" min="0" max="8" />
+		</string>
+	</table>
+</database>
